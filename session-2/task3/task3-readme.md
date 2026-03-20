@@ -19,7 +19,7 @@ Create a file named `Makefile` (note: no file extension) with a basic rule to bu
 
 ```make
 student_program: main.c student.c student.h structure.h
-	gcc main.c student.c -o student
+	gcc main.c student.c -o student_program
 ```
 
 This tells make: "To build student, you need main.c, student.c, structure.h and student.h, 

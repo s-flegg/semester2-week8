@@ -74,5 +74,8 @@ int update_mark(Student *student, int module_index, float new_mark) {
     
     // Update the mark
     student->marks[module_index] = new_mark;
+
+    printf("Small change again");
+
     return 1; // Success
 }
