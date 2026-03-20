@@ -26,5 +26,7 @@ int main() {
     printf("\nAfter updates:\n");
     display_student(student);
     
+    printf("Small change\n");
+    
     return 0;
 }
